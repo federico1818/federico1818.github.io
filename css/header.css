@@ -1,0 +1,28 @@
+.header {
+    background-color: var(--primary-color);
+    color: var(--primary-color-contrast);
+    display: grid;
+    grid-row: 1;
+    grid-column: 1 / 3;
+    grid-template-columns: inherit;
+    grid-auto-rows: min-content;
+    padding: var(--padding);
+}
+
+.header .name,
+.header .position,
+.header .presentation {
+    grid-column: 2 / 3;
+}
+
+.header .name {
+    font-size: 8mm;
+    letter-spacing: .8mm;
+    text-transform: uppercase;
+}
+
+.header .presentation {
+    font-size: 3.5mm;
+    margin: 2mm 0;
+    text-align: justify;
+}

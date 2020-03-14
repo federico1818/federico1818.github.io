@@ -1,0 +1,7 @@
+.section {
+    margin: var(--padding) 0;
+}
+
+.section .title {
+    color: var(--primary-color);
+}

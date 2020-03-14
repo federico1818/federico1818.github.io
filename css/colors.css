@@ -1,0 +1,8 @@
+:root {
+    --body-background-color: #7290D0;
+
+    --primary-color: #1A5281;
+    --primary-color-contrast: #ffffff;
+
+    --nav-background-color: hsl(208, 50%, 90%);
+}

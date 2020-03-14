@@ -1,0 +1,9 @@
+.cv {
+    width: 210mm;
+    height: 297mm;
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 70mm 1fr;
+    grid-template-rows: var(--header-height);
+}
