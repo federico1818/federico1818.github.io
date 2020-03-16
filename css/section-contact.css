@@ -1,0 +1,9 @@
+.list-item-contact {
+	display: flex;
+	align-items: center;
+	margin: 4mm 0;
+}
+
+.list-item-contact .material-icons {
+	margin-right: 1mm;
+}
