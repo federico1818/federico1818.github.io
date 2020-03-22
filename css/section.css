@@ -1,7 +1,17 @@
-.section {
+/* .section {
     margin: var(--padding) 0;
-}
+} */
 
 .section .title {
     color: var(--primary-color);
+}
+
+.section-main .title {
+    display: flex;
+    align-items: center;
+    height: 10mm;
+}
+
+.section-main .title .material-icons {
+    margin-right: 2mm;
 }
